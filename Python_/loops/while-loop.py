@@ -5,8 +5,12 @@ count = 1
 while count <= 5:
     print(count)
     count += 1
+    if count == 4:
+       print('the excecution is done')
+       break
 
 
 level = 0
 while(level < 10):
+  print(level)
   level += 1

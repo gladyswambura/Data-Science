@@ -14,10 +14,10 @@ else:
 
 
 # comparison operators:
-age = 21
-if age >= 21:
+age = 22
+if age >= 21:    # 21++
   print("You can drive a trailer")
-elif age >= 16:
+elif age >= 16:  # 16-20
   print("You can drive a car")
-else:
+else:            # less than 16
   print("You can ride a bike")
