@@ -3,7 +3,7 @@
 # Lists are mutable, meaning that you can change the items in a list. You can also add new items to a list.
 
 # can store any data type
-multiple_types = [True, 3.7, "Python"]
+multiple_types = [True, 3.7, "Python", 15]
 
 # access and modify
 favourite_foods = ["pasta", "pizza", "french fries"]
@@ -21,6 +21,7 @@ favourite_foods.append("paella")
 
 # insert at index
 favourite_foods.insert(1, "soup")
+print(favourite_foods)
 
 # remove
 favourite_foods.remove("soup")
@@ -34,7 +35,8 @@ print(favourite_foods[1:3]) # ['pizza', 'french fries']
 # lists inside lists
 favourite_drinks = ["water", "wine", "juice"]
 favourites = [favourite_foods, favourite_drinks]
-print(favourites[1][2]) # juice
+print(favourites)
+print(favourites[1][1]) # juice
 
 
 
