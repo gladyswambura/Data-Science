@@ -1,12 +1,12 @@
 # Basic requirements to be a data scientist
 
     Understand git
-    Python3 ----Functions and classes
+    Python3 basics----Functions and classes (mostly)
     Database--SQL---MYSql, Postgresql, sqlite
 
 ## Requirements to be a data scientist
 
-    Python Libraries---Numpy, Pandas, Flask
+    Python Libraries---Numpy, Pandas, Flask, streamlit
     Data----EDA:
     Data Collection----scraping
     Data Processing
@@ -20,9 +20,3 @@
     Tableau
     PowerBi
     Docker & Kubernetes
-
-
-
-
-
-
