@@ -8,8 +8,11 @@ multiple_types = [True, 3.7, "Python", 15]
 # access and modify
 favourite_foods = ["pasta", "pizza", "french fries"]
 print(favourite_foods[1]) # pizza
+
 favourite_foods[0] = "rösti"
 print(favourite_foods[0]) # rösti
+
+# favourite_foods = ["rosti", "pasta", "pizza", "french fries"]
 
 # subsets
 print(favourite_foods[1:3]) # ['pizza', 'french fries']
@@ -36,7 +39,7 @@ print(favourite_foods[1:3]) # ['pizza', 'french fries']
 favourite_drinks = ["water", "wine", "juice"]
 favourites = [favourite_foods, favourite_drinks]
 print(favourites)
-print(favourites[1][1]) # juice
+print(favourites[1][1]) # wine
 
 
 

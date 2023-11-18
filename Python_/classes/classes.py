@@ -2,6 +2,8 @@
 
 # The class keyword is followed by the class name. The class name is the name of the class.
 
+
+
 class Person:
     def __init__(self, name, age):
         self.name = name  # Attribute
@@ -10,6 +12,9 @@ class Person:
     def say_hello(self):  # Method
         print(f"Hello, my name is {self.name} and I'm {self.age} years old.")
 
+p1=Person("John", 35)
+print(p1.name)
+p1.say_hello()
 
 # classes
 class Email:

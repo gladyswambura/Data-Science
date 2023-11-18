@@ -2,9 +2,7 @@
 
 # To define a function in Python, you use the def keyword, followed by the function name and a pair of parentheses. Any input parameters (arguments) that the function requires are placed inside these parentheses. The colon: indicates the start of the function block.
 
-
 # def function_name(parameter1, parameter2, ...):# Function code here
-
 
 # Function to add two numbers and return the result
 def add_numbers(a, b):

@@ -31,6 +31,8 @@ print(language_creators["Go"]) # ['Robert Griesemer', 'Rob Pike', 'Ken Thompson'
 
 print(len(language_creators)) # 5
 
+print(language_creators)
+
 del language_creators["Perl"]
 print(len(language_creators)) # 4
 

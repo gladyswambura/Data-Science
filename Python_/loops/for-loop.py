@@ -1,7 +1,7 @@
 # for loops allow you to iterate over a sequence (such as a list, tuple, string, or range) or other iterable objects. They execute a block of code for each item in the iterable.
 
 # for loop
-for x in range(0, 3):
+for x in range(4, 10, 2):
   print(x)
 
 # loop through list
@@ -50,5 +50,5 @@ numbers = [1, 2, 3, 4, 5]
 for i in range(len(numbers)):
     print(i)    #prints the index of the numbers
     print(numbers[i])  # prints the list as they are
-    print(i**2)        # prins the square if the lists
+    print(i**2)        # prins the power of the lists
 
