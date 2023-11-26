@@ -21,4 +21,4 @@
 # Inside the Jupyter Notebook, you can create and run code cells, perform data analysis, and add text explanations as needed.
 
 
-# How to use Anacoda
+#Anacoda

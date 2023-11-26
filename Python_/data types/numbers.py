@@ -5,7 +5,7 @@
 
 age = 18 # int
 pi = 3.14 # float
-total = age + pi # float
+total = age + pi # float (21.14)
 print(type(age), type(pi), type(total)) # <class 'int'> <class 'float'> <class 'float'>
 
 # You can also use the "type" function to determine the type of an object.

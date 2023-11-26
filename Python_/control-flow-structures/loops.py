@@ -1,3 +1,5 @@
+# Loops (for and while). Loops are used to execute the same block of code multiple times.:
+
 # for loops allow you to iterate over a sequence (such as a list, tuple, string, or range) or other iterable objects. They execute a block of code for each item in the iterable.
 
 # for loop
@@ -52,3 +54,20 @@ for i in range(len(numbers)):
     print(numbers[i])  # prints the list as they are
     print(i**2)        # prins the power of the lists
 
+
+# while loops repeatedly execute a block of code as long as a specified condition remains True
+
+#example 1
+count = 1
+while count <= 5:
+    print(count)
+    count += 1
+    if count == 4:
+       print('the excecution is done')
+       break
+
+
+level = 0
+while(level < 10):
+  print(level)
+  level += 1

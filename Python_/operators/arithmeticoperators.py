@@ -1,3 +1,4 @@
+# Arithmetic operators
 print(46 + 2)  # 48 (addition)
 print(10 - 9)  # 1 (subtraction)
 print(3 * 3)  # 9 (multiplication)

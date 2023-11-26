@@ -1,3 +1,4 @@
+# Strings are sequences of characters, enclosed in single or double quotes. 
 #Example 1:
 language = "Python"
 

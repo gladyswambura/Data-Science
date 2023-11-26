@@ -1,15 +1,19 @@
-# A class in Python is a blueprint or a template for creating objects. It defines the structure and behavior that the objects created from it will have. Objects are instances of classes. To create a class in Python, you use the class keyword followed by the class name. Class names are typically written in CamelCase.
-#. objects, classes,encapsulation, inheritance
-# The class keyword is followed by the class name. The class name is the name of the class.
+# Object-Oriented Programming (OOP) is a programming paradigm that focuses on organizing code using objects and classes. It helps to create more modular, reusable, and maintainable code.
+
+# Classes and objects:
+# A class is a blueprint for creating objects. It defines a set of attributes and methods that the objects created from the class will have.
+
+# An object is an instance of a class. It has its own set of attributes and can use the methods defined in its class.
+
+# To create a class in Python, you use the class keyword followed by the class name. Class names are typically written in CamelCase.
+
 class Person:
   #  constructor access object attribute
 
     # attributes
     gender = 'male'
 
-    # 
-    def __init__(self, name, age):
-        # initializing instance variable 
+    def __init__(self, name, age):  # initializing instance variable 
         self.name = name  # Attribute
         self.age = age    # Attribute
 
@@ -21,16 +25,14 @@ student2 = Person('Lona', 22)
 student1.say_hello()
 print(student1.name)
 
-
 # accesing attributes inside the class
 print('This is an attribute', Person.gender)
 
 
 
-# classes
+# Example 2
 class Email:
-  # __ means private underscore
-    __read = False
+    __read = False   # __ means private underscore
     
     def __init__(self, subject, body):
       self.subject = subject
