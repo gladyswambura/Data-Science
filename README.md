@@ -26,6 +26,7 @@
     Statistics for Data Science
     Python3 basics----Data structures, control flow structures, Functions and classes (mostly)
     Database--SQL---MYSql, Postgresql, sqlite--https://learnsql.com/blog/sql-for-data-analysis-cheat-sheet/
+    https://www.kdnuggets.com/2022/06/21-cheat-sheets-data-science-interviews.html
     Python Libraries---Numpy, Pandas, Flask, streamlit
     Data----EDA:
     Data Collection----scraping
